@@ -8,9 +8,9 @@ h1{
 .colouredHeader{
     color: orange;
 } 
-section{
+.flex-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .half-width-content{
     width: 50%;
@@ -35,21 +35,17 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-====================================
-section2{
-    display: flex;
-    }
+
 .half-width-content2{
     width: 50%;
     padding-left: 5%;
-    min-height: auto;
-    align-items: center;
+    padding-top: 50px;
 }
 .half-width-picture2{
     width: 50%;
 }
 .half-width-picture2 img{
-    width: 70%;
+    width: 80%;
     padding-left: 15%;
 }
 .button-design2{
@@ -63,6 +59,42 @@ section2{
 .sectionBackground2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-    
+    background-position: right;   
+}
+.experience-Area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;  
+}
+.experience-Area h1{
+    padding-left: 10%;
+    text-decoration: underline;
+}
+.flexible-container{
+    display: flex;
+    padding: 10px 10px;
+}
+.half-width{
+    width: 50%;
+    padding-left:3%;
+    box-shadow: 10px 10px 40px teal;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 40px;
+}
+.half-width h3{
+    color: rgb(177, 27, 0);
+}
+#Border-left-content{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(36, 39, 241),rgb(1, 150, 170));
+    border-image-slice: 1;  
+}
+#Border-right-content{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(241, 60, 36),rgb(214, 151, 16));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
